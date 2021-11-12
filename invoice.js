@@ -233,4 +233,3 @@ ready(function() {
     updateInvoice({});
   }
 });
-
