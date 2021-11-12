@@ -10,10 +10,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="https://docs.getgrist.com/grist-plugin-api.js"></script>
 
-    <script src="invoice.js"></script>
+    <script src="invoice.js?ver=11"></script>
     <script src="exampleData.js"></script>
 
-    <link rel="stylesheet" href="invoice.css">
+    <link rel="stylesheet" href="invoice.css?ver=17">
   </head>
   <body>
     <div id="app">
@@ -35,8 +35,7 @@
           {{ status }}
         </template>
       </div>
-           
-            
+      <template v-if="invoice">
         <div class="top">
           <div class="block">
             <div class="header">
@@ -190,7 +189,6 @@
           <a href="javascript:window.print()">Print</a>
         </div>
       </template>
-    </div> 
-  
+    </div>
   </body>
 </html>
