@@ -7,7 +7,7 @@ function ready(fn) {
 }
 
 function addDemo(row) {
-   if (!row.Invoicer) {
+   if (!row.Link_to_Bookmarks) {
     row.Link_to_Bookmarks = {
       URL: 'Link_to_Bookmarks.URL',
     }
