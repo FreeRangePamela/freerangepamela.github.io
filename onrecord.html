@@ -12,6 +12,16 @@
       grist.onRecord(function(record) {
         document.getElementById('readout').innerHTML = JSON.stringify(record, null, 2);
       });
-    </script>
+  
+    
+    
+    var iframe= document.createElement('iframe');
+    iframe.src= 'record';
+    iframe.width=iframe.height= 100;
+    document.getElementById('readout').appendChild(iframe);
+        });
+  </script>
+    
+    
   </body>
 </html>
