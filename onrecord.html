@@ -11,8 +11,19 @@
       grist.ready();
       grist.onRecord(function(record) {
        <!-- document.getElementById('readout').innerHTML = JSON.stringify(record, null, 2);  --->
-      document.getElementById('readout').innerHTML= '<iframe src="$record.Link_to_bookmarks" width="100%" height="100%"></iframe>';  
-    
+        var tableId = null;
+      var rowId = null;
+      var colId = null;
+      var cachedData = null;
+      function render(elemId, content) {
+        var el = document.getElementById(elemId);
+        if (!content) {
+          el.style.display = 'none';
+        } else {
+          el.innerHTML =  <iframe src="id" width="100%" height="100%"></iframe>';  
+        }
+      }
+            
     
         });
   </script>
