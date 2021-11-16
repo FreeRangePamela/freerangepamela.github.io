@@ -29,12 +29,12 @@ function addDemo(row) {
       Website: 'Invoicer.Website'
     }
   }
-  if (!row.Client) {
-    row.Client = {
-      Name: 'Client.Name',
-      Street1: 'Client.Street1',
-      Street2: 'Client.Street2',
-      City: 'Client.City',
+  if (!row.Company_Name) {
+    row.Company_Name = {
+      Name: 'Company_Name.Name',
+      Street1: 'Company_Name.Street1',
+      Street2: 'Company_Name.Street2',
+      City: 'Company_Name.City',
       State: '.State',
       Zip: '.Zip'
     }
