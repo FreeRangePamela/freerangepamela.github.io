@@ -34,7 +34,7 @@ function addDemo(row) {
       Name: 'Client.Name',
       Street1: 'Client.Street1',
       Street2: 'Client.Street2',
-      City: 'Client.City',
+      City: 'Client.Primary_Location',
       State: '.State',
       Zip: '.Zip'
     }
