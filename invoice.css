@@ -37,7 +37,7 @@ body {
   display: block;
 }
 
-.Company_Name, .items, .summary {
+.client, .items, .summary {
   padding: 1px;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -46,13 +46,13 @@ body {
   color-adjust: exact !important;
 }
 
-.Company_Name .title, .summary .title {
+.client .title, .summary .title {
   margin-left: 4px;
   color: white;
   text-transform: uppercase;
 }
 
-.Company_Name .details, .summary .details {
+.client .details, .summary .details {
   padding: 4px;
   background: #fff;
 }
@@ -76,7 +76,7 @@ table.items td {
   padding: 4px;
 }
 
-.Company_Name .title, .summary .title, table.items th, .help .title {
+.client .title, .summary .title, table.items th, .help .title {
   padding-top: 10px;
   padding-bottom: 10px;
 }
