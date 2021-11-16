@@ -77,8 +77,8 @@
           </div>
         </div>
         
-        <div class="Company_Name" v-for="business in (invoice.Company_Name ? [invoice.Company_Name] : [])">
-          <div class="title">Company_Name</div>
+        <div class="client" v-for="business in (invoice.Client ? [invoice.Client] : [])">
+          <div class="title">Client</div>
           <div class="details">
             <template v-if="typeof(business) === 'string'">
               <div class="newlined">{{ business }}</div>
