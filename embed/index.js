@@ -43,9 +43,10 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
             },
         },
         /* Pass meta data of file */
-        metaData: {
-            /* file name */
-            fileName: "Bodea Brochure.pdf"
-        }
+        metaData:{fileName: "Bodea Brochure.pdf"}
+		}, {showAnnotationTools: true, showDownloadPDF: false, showPrintPDF: false});
+	});
+        
+        
     }, viewerConfig);
 });
